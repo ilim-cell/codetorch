@@ -1,0 +1,80 @@
+name: '🕷️ Bug report'
+description: Report errors or unexpected behavior
+labels:
+    - Bug Report
+    - Needs Triage
+assignees: ilim-cell
+body:
+    - type: markdown
+      attributes:
+          value: Please make sure to [search for existing issues](https://github.com/ilim-cell/codetorch/issues) before filing a new one!
+    - type: markdown
+      attributes:
+          value: |
+              **Are your issues already being tracked?**
+              We are aware of the following high-volume issues and are actively working on them. Please check if your issue is one of these before filing a new bug report:
+              *None present so far*
+              Please do not file bug reports for these two issues, as we are already actively investigating and working on them. Filing duplicate bug reports for these issues may slow down our progress in resolving them. We appreciate your understanding and patience as we work to fix these problems.
+    - id: version
+      type: input
+      attributes:
+          label: Project/SDK version
+          placeholder: X.X.X
+          description: If you need help finding the version, it is usually located in the description, title or main view of the app. If you cannot find it, enter 0.
+      validations:
+          required: true
+
+    - type: dropdown
+      attributes:
+          label: Area(s) with issue?
+          description: What projects had an issue? Check all that apply.
+          multiple: true
+          options:
+              - ScratchGPT (including SDK)
+              - PolyOS (including SDK)
+              - UI Elements
+              - AI Detector
+              - ScratchGPT SDK
+              - CodeTorch Online Status
+              - Life in Three Moves
+              - Star and Snow Animation
+              - General profile issues
+              - Something else not on this list
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: Steps to reproduce
+          description: We highly suggest including screenshots, screen recordings, and/or code snippets to help us understand the issue.
+          placeholder: Having detailed steps helps us reproduce the bug.
+      validations:
+          required: true
+
+    - type: textarea
+      attributes:
+          label: ✔️ Expected Behavior
+          placeholder: What were you expecting?
+      validations:
+          required: false
+
+    - type: textarea
+      attributes:
+          label: ❌ Actual Behavior
+          placeholder: What happened instead?
+      validations:
+          required: false
+
+    - id: additionalInfo
+      type: textarea
+      attributes:
+          label: Additional Information
+          placeholder: |
+              Browser version (Chrome 149...)
+              CodeTorch version (click on "Changelog" in the footer)
+              System Language (English (US) etc.)
+      validations:
+          required: false
+    - type: markdown
+      attributes:
+          value: Limit to one issue per bug report. If you need to make more issues, check "Create more" underneath.
