@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "\U0001F4DA Project wiki"
+    url: https://github.com/ilim-cell/codetorch/wiki
+    about: Documentation for users of Wafflez Studios
+  - name: "\U0001F4DA Profile page"
+    url: https://codetorch.net/users/Wafflez_Wif_Syrup
+    about: Wafflez Studios profile page
+  - name: "\U0001F4AC Discussion forums"
+    url: https://github.com/ilim-cell/codetorch/discussions
+    about: Official Wafflez Studios discussion forum
+  - name: "\U0001F6E3 Roadmaps"
+    url: https://github.com/ilim-cell/codetorch/projects
+    about: Roadmaps for the future of Wafflez
