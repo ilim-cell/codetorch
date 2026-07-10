@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: "\U0001F4DA Project wiki"
-    url: https://github.com/ilim-cell/codetorch/wiki
+    url: https://github.com/ilim-cell/codetorch/tree/main/docs
     about: Documentation for users of Wafflez Studios
   - name: "\U0001F4DA Profile page"
     url: https://codetorch.net/users/Wafflez_Wif_Syrup
